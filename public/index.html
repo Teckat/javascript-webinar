@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome To Javascript</title>
+    <link
+      rel="shortcut icon"
+      href="https://teckat.com/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-color: #f6f6ff;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'PT Serif', serif;
+      }
+      .icon {
+        width: 24px;
+      }
+      .link:hover {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="text-center py-3">Welcome To Javascript</h1>
+
+    <div class="text-center">
+      <a
+        href="https://github.com/InSantoshMahto"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="link"
+      >
+        Follow Me On
+        <img class="icon" src="https://github.com/favicon.ico" alt="Github" />
+        Github
+      </a>
+    </div>
+    <script>
+      'use script';
+      console.log('Welcome To Javascript');
+      fetch('/ping').then((res) => {
+        res.json().then((res) => {
+          console.log('res', res);
+        });
+      });
+    </script>
+  </body>
+</html>

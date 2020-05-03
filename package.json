@@ -1,0 +1,21 @@
+{
+  "name": "javascript-webinar",
+  "version": "1.0.0",
+  "description": "demo app",
+  "main": "index.js",
+  "repository": "git@github.com:InSantoshMahto/javascript-webinar.git",
+  "author": "santosh mahto <mahtos480@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
