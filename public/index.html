@@ -36,20 +36,62 @@
     </style>
   </head>
   <body>
-    <h1 class="text-center py-3">Welcome To Javascript</h1>
+    <!-- introduction -->
+    <section class="container">
+      <h1 class="text-center py-3">Welcome To Javascript</h1>
+      <div class="text-center">
+        <a
+          href="https://github.com/InSantoshMahto"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="link"
+        >
+          Follow Me On
+          <img class="icon" src="https://github.com/favicon.ico" alt="Github" />
+          Github
+        </a>
+      </div>
+    </section>
 
-    <div class="text-center">
-      <a
-        href="https://github.com/InSantoshMahto"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="link"
-      >
-        Follow Me On
-        <img class="icon" src="https://github.com/favicon.ico" alt="Github" />
-        Github
-      </a>
-    </div>
+    <section class="jumbotron">
+      <div class="row">
+        <div class="col-12 col-6 offset-lg-3">
+          <form>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                aria-describedby="emailHelp"
+              />
+              <small id="emailHelp" class="form-text text-muted"
+                >We'll never share your email with anyone else.</small
+              >
+            </div>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" />
+            </div>
+            <div class="form-group">
+              <label for="name">message</label>
+              <textarea
+                name="message"
+                id="message"
+                class="form-control"
+                cols="30"
+                rows="3"
+              ></textarea>
+            </div>
+          </form>
+          <div class="text-center">
+            <button type="button" class="btn btn-primary px-5">
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
     <script>
       'use script';
       console.log('Welcome To Javascript');
