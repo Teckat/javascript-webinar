@@ -85,7 +85,11 @@
             </div>
           </form>
           <div class="text-center">
-            <button type="button" class="btn btn-primary px-5">
+            <button
+              type="button"
+              onclick="sendContactData()"
+              class="btn btn-primary px-5"
+            >
               Submit
             </button>
           </div>
@@ -100,6 +104,32 @@
           console.log('res', res);
         });
       });
+
+      function sendContactData() {
+        // collect the form data
+        const name = document.querySelector('#name');
+        const email = document.querySelector('#email');
+        const message = document.querySelector('#message');
+
+        // prepare payload for api
+        const payload = {
+          name: name.value,
+          email: email.value,
+          message: message.value,
+        };
+
+        fetch('http://localhost:8080/contact', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json;charset=utf-8',
+          },
+          body: JSON.stringify(payload),
+        }).then((res) => {
+          res.json().then((res) => {
+            console.log(res);
+          });
+        });
+      }
     </script>
   </body>
 </html>
