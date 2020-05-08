@@ -1,5 +1,8 @@
 {
   "files.autoSave": "onFocusChange",
   "editor.formatOnSave": true,
-  "prettier.configPath": ".prettierrc"
+  "prettier.configPath": ".prettierrc",
+  "cSpell.words": [
+    "Teckat"
+  ]
 }

@@ -55,9 +55,68 @@
         </a>
       </div>
     </section>
-    <!-- code here -->
+
+    <section class="container">
+      <code>let`s write today code.</code>
+    </section>
+
+    <!-- you have to write all javascript inside the script tag -->
     <script>
-      console.log(`js`);
+      /**
+       * *********************************
+       * *VARIABLES
+       * **********************************
+       * */
+      // declare the variable into javascript
+      let name;
+      let age;
+      let isIndian;
+
+      let studentName, studentAge;
+
+      // store the data into variable
+      name = 'santosh';
+      age = 22;
+      isIndian = true;
+
+      // declaring and initializing
+      let companyName = 'Teckat';
+      let companyAddress = 'Jamshedpur',
+        companyState = 'Jharkhand';
+
+      // js : are option
+
+      /**
+       * *********************************
+       * *CONSTANT
+       * **********************************
+       * */
+      const DEVELOPER = 'SANTOSH';
+      const EDITOR = 'VSCODE';
+      const GITHUB_ID = 'insantoshmahto';
+
+      function sayHello() {
+        if (true) {
+          console.log('block scope');
+          var name = 'me'; // * not recommend to var key word any more prefer to use let.
+          let myAge = 25;
+          console.log('name ->', name);
+          console.log('myAge ->', myAge);
+
+          console.log(name + myAge); // me29
+          console.log(name + ' ' + myAge); // me 29
+          console.log(`my name is ${name} and i am ${age} year old.`);
+        }
+        console.log('function scope');
+        console.log('name ->', name);
+        // console.log('myAge ->', myAge);
+      }
+      sayHello();
+      // GITHUB_ID = 56;
+
+      /**
+       * * variable must not start with number or any special characters except _ and $;
+       * */
     </script>
   </body>
 </html>
