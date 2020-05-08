@@ -1,0 +1,4 @@
+GET http://localhost:8080/ping HTTP/1.1
+
+### text file from pulic folder
+GET http://localhost:8080/hello.txt HTTP/1.1

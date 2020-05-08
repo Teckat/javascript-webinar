@@ -1,9 +1,7 @@
-/** @format */
-
 'use strict';
 const express = require('express');
 const cors = require('cors');
-const path = require('path');
+const { join } = require('path');
 
 const app = express();
 
@@ -15,7 +13,7 @@ app.disable('etag'); // disabled etag
 
 app.disable('x-powered-by'); // disabled express tag
 
-app.use(express.static(path.join(__dirname, 'public'))); // set public directory
+app.use(express.static(join(__dirname, 'public'))); // set public directory
 
 app.use(express.json()); // parse json data
 
