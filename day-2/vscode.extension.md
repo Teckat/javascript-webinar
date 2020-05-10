@@ -1,0 +1,25 @@
+# Microsoft VS Code Extensions
+
+- Auto Close Tag
+- Auto Rename Tag
+- Better Comments
+- Bracket Pair Colorizer
+- change-case
+- Code Spell Checker
+- Debugger for Chrome
+- EditorConfig for VS Code
+- Error Lens
+- ESLint
+- GitLens — Git supercharged
+- HTML CSS Support
+- Indent-rainbow
+- JavaScript (ES6) code snippets
+- Live Server
+- Material Icon Theme
+- npm
+- Prettier - Code formatter
+- Reload
+- REST Client
+- Settings Sync
+- Todo Tree
+- vscode-faker
