@@ -1,0 +1,3 @@
+*. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+*. https://javascript.info/object
+*. https://javascript.info/map-set
