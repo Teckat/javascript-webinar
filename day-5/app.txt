@@ -1,0 +1,18 @@
+{
+  "status": true,
+  "data": {
+    "lang": "javascript",
+    "students": [
+      {
+        "name": "sam",
+        "favColor": "black"
+      },
+      {
+        "name": "john",
+        "favColor": "blue"
+      }
+    ]
+  },
+  "page": 1,
+  "limit": 25
+}
