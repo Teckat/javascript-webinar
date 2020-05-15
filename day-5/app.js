@@ -1,5 +1,5 @@
 'use strict';
-console.log(`Welcome To Javascript Webinar Day 04`);
+console.log(`Welcome To Javascript Webinar Day 05`);
 
 const DATA = {
   status: true,
@@ -125,3 +125,55 @@ simplePromiseExamplePro(true, false)
   .catch(($) => {
     console.error($);
   });
+
+/**
+ * Doubts
+ */
+
+function one() {
+  console.log(1);
+}
+
+function two() {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      console.log(2);
+      console.log(`completed`);
+      resolve(true);
+    }, 2500);
+  });
+}
+
+function three() {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      console.log(3);
+      console.log(`completed`);
+      resolve('three');
+    }, 1000);
+  });
+}
+
+function four() {
+  console.log(4);
+}
+
+// (() => {
+//   one();
+//   two().then(($) => {
+//     console.log('$ :>> ', $);
+//     three().then(($) => {
+//       console.log('$ :>> ', $);
+//       four();
+//     });
+//   });
+// })();
+
+// (async () => {
+//   one();
+//   const $ = await two();
+//   console.log('$ :>> ', $);
+//   const $$ = await three();
+//   console.log('$$ :>> ', $$);
+//   four();
+// })();
