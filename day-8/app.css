@@ -1,0 +1,16 @@
+body {
+  background-color: #f6f6ff;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'PT Serif', serif;
+}
+.icon {
+  width: 24px;
+}
+.link:hover {
+  text-decoration: none;
+}
+sub {
+  font-size: xx-small;
+}
