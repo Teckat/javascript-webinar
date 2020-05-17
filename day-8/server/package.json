@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "introduction to nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InSantoshMahto/javascript-webinar.git"
+  },
+  "keywords": [
+    "teckat"
+  ],
+  "author": "insantoshmahto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/InSantoshMahto/javascript-webinar/issues"
+  },
+  "homepage": "https://github.com/InSantoshMahto/javascript-webinar#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.6",
+    "nodemon": "^2.0.4"
+  }
+}
