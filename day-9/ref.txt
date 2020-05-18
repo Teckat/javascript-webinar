@@ -1,0 +1,4 @@
+1. https://ethereal.email/
+2. https://nodemailer.com/
+3. https://www.mailinator.com/
+4. https://myaccount.google.com/security (Less secure app access) trn ON

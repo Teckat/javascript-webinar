@@ -3,6 +3,7 @@
   "editor.formatOnSave": true,
   "prettier.configPath": ".prettierrc",
   "cSpell.words": [
+    "SMTP",
     "Teckat"
   ]
 }
